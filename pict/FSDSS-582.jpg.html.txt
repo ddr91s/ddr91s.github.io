@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<style>
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 20px;
+}
+</style>
+<head>
+	
+    <link rel="icon" href="https://raw.githubusercontent.com/hd-720p/test-blog/gh-pages/favicon.ico">
+
+<p align="center"><iframe src="//a.realsrv.com/iframe.php?idzone=4962830&size=728x90" width="728" height="90" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe></p>
+       
+    <title>Redirecting...</title>
+    <meta http-equiv="refresh" content="4; url =
+    https://imagetwist.com/mtgmeu9k3mqr/FC2PPV-3259498_s.jpg" />
+</head>
+  
+<body>
+    <h1 style="text-align:center;color:green;">
+    Please Wait
+  </h1>
+    <h2 style="text-align:center;">
+        If your browser supports Refresh, 
+        you'll be redirected to ImageTwist 
+        , in 4 seconds. 
+    </h2>
+  
+<script type="application/javascript" 
+data-idzone="3985660" src="https://a.realsrv.com/nativeads-v2.js" 
+></script>
+	
+<script type="application/javascript" 
+data-idzone="3985692" src="https://a.realsrv.com/nativeads-v2.js" 
+></script>
+	
+<script type="application/javascript">
+    var ad_idzone = "4962832",
+    ad_width = "728",
+    ad_height = "90",
+    v_pos = "bottom",
+    h_pos = "center"; 
+</script>
+<script type="application/javascript" src="https://a.realsrv.com/js.php?t=17&idzone=4962832"></script>
+	
+<script async type="application/javascript" src="https://a.realsrv.com/ad-provider.js"></script> 
+ <ins class="adsbyexoclick" data-zoneid="4963186"></ins> 
+ <script>(AdProvider = window.AdProvider || []).push({"serve": {}});</script>
+	  
+</body></html>
