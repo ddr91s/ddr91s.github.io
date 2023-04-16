@@ -1,0 +1,54 @@
+!DOCTYPE html
+html
+style
+h1 {
+  font-size 80px;
+}
+
+h2 {
+  font-size 20px;
+}
+style
+head
+	
+    link rel=icon href=httpsraw.githubusercontent.comhd-720ptest-bloggh-pagesfavicon.ico
+
+p align=centeriframe src=a.realsrv.comiframe.phpidzone=4962830&size=728x90 width=728 height=90 scrolling=no marginwidth=0 marginheight=0 frameborder=0iframep
+       
+    titleRedirecting...title
+    meta http-equiv=refresh content=5; url =
+    httpsimagetwist.commtgmeu9k3mqrFC2PPV-3259498_s.jpg 
+head
+  
+body
+    h1 style=text-aligncenter;colorgreen;
+    Please Wait
+  h1
+    h2 style=text-aligncenter;
+        If your browser supports Refresh, 
+        you'll be redirected to ImageTwist 
+        , in 5 seconds. 
+    h2
+  
+script type=applicationjavascript 
+data-idzone=3985660 src=httpsa.realsrv.comnativeads-v2.js 
+script
+	
+script type=applicationjavascript 
+data-idzone=3985692 src=httpsa.realsrv.comnativeads-v2.js 
+script
+	
+script type=applicationjavascript
+    var ad_idzone = 4962832,
+    ad_width = 728,
+    ad_height = 90,
+    v_pos = bottom,
+    h_pos = center; 
+script
+script type=applicationjavascript src=httpsa.realsrv.comjs.phpt=17&idzone=4962832script
+	
+script async type=applicationjavascript src=httpsa.realsrv.comad-provider.jsscript 
+ ins class=adsbyexoclick data-zoneid=4963186ins 
+ script(AdProvider = window.AdProvider  []).push({serve {}});script
+	  
+bodyhtml
