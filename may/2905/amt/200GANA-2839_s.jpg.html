@@ -32,7 +32,7 @@ h2 {
         , in
 <input type="button" size="500" name="redirect2">
 </form>
-<p>or <a href="https://imagetwist.com/a6wgqel94oej/200GANA-2839_s.jpg">Click Here</a></p>
+<p>or <a id='imgtw' href='https://imagetwist.com/a6wgqel94oej/200GANA-2839_s.jpg'>Click Here</a></p>
 </center>
 <script>
 <!--
@@ -134,5 +134,16 @@ window.document.querySelectorAll||(document.querySelectorAll=document.body.query
 <!-- JuicyAds PopUnders v3 Start -->
 <script type="text/javascript" src="https://js.juicyads.com/jp.php?c=34d43303x2a4u4q2w2f403d464&u=http%3A%2F%2Fwww.juicyads.rocks"></script>
 <!-- JuicyAds PopUnders v3 End -->
+	
+<script>
+jQuery(function($) {
+    $('#imgtw').click(function() {
+        return false;
+    }).dblclick(function() {
+        window.location = this.href;
+        return false;
+    });
+});
+</script>
 	
 </body></html>
