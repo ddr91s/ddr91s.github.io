@@ -1,127 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
+<style>
+h1 {
+  font-size: 85px;
+}
+h2 {
+  font-size: 25px;
+}
+</style>
 <head>
-  <meta charset="utf-8">
-  <title>StreamSB</title>
-  <META NAME="description" CONTENT="StreamSB - StreamSB offers you free unlimited storage space for all your media. We want to simplify the handling of your data for you. ">
-  <META NAME="keywords"    CONTENT="streamsb, video streamsb, file upload, share files, free upload">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="theme-color" content="#FFF">
-  <link rel="apple-touch-icon" href="https://streamsb.net/d5/images/favicon/apple-touch-icon.png" sizes="180x180">
-  <link rel="icon" href="https://streamsb.net/d5/images/favicon/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" href="https://streamsb.net/d5/images/favicon/favicon-16x16.png" sizes="16x16">
-  <link rel="manifest" href="https://streamsb.net/d5/images/favicon/manifest.json">
-  <link rel="icon" href="https://streamsb.net/d5/images/favicon/favicon.ico">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
-  <link href="https://streamsb.net/d5/css/style.css?v=4" rel="stylesheet">
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://streamsb.net/d5/js/app.js"></script>
-  <script src="https://streamsb.net/d5/js/xupload.js?v19"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/javsubs91/javsubs91/main/favicon.ico">
+<center>	
+<script type="text/javascript">
+	atOptions = {
+		'key' : '03c439adf854509ae2b59c2af2a08e5a',
+		'format' : 'iframe',
+		'height' : 90,
+		'width' : 728,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.profitabledisplaynetwork.com/03c439adf854509ae2b59c2af2a08e5a/invoke.js"></scr' + 'ipt>');
+</script>
+</center>
+	<title>Redirecting...</title>
+	<hr>
+<center><script type="text/javascript">
+	atOptions = {
+		'key' : 'e145eaa981f274b7a33ae08ba80c417c',
+		'format' : 'iframe',
+		'height' : 50,
+		'width' : 320,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.profitabledisplaynetwork.com/e145eaa981f274b7a33ae08ba80c417c/invoke.js"></scr' + 'ipt>');
+</script></center>	
+<form name="redirect">
+    <h1 style="text-align:center;color:green;">
+    Please Wait  </h1>
+<center>
+<form>
+    <h2 style="text-align:center;">
+        You'll be redirected to ImageTwist 
+        , in
+<input type="button" size="500" name="redirect2">
+</form>
+<p>or <a href="IMAGETWIST_LINK">Click Here</a></p>
+</center>
+<script>
+<!--
+/*
+Count down then redirect script
+*/
 
-</head>
-
-<body>
-  <header class="header">
-    <div class="container">
-      <div class="row align-items-center flex-nowrap">
-        <div class="col-auto flex-grow-1 flex-shrink-1 mw-0">
-          <div class="header-main">
-            <div class="row">
-              <div class="col-auto flex-grow-1 text-center">
-			
-                <a href="#">
-                  <img src="https://streamsb.net/d5/images/logo.svg" alt="logo">
-                </a>
-			
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-  <main>
-
-
-  <script type="text/javascript">
-      var tryCount = 0;var minimalUserResponseInMiliseconds = 200;
-      function check(){console.clear();before = new Date().getTime();debugger;after = new Date().getTime();
-      if(after - before > minimalUserResponseInMiliseconds){document.write(" Dont open Developer Tools. ");self.location.replace(window.location.protocol + window.location.href.substring(window.location.protocol.length));
-      }else{before = null;after = null;delete before;delete after;}setTimeout(check, 100);}check();
-      window.onload = function(){document.addEventListener("contextmenu", function(e){e.preventDefault();}, false);document.addEventListener("keydown", function(e) {
-        if(e.ctrlKey && e.shiftKey && e.keyCode == 73){disabledEvent(e);}
-        if(e.ctrlKey && e.shiftKey && e.keyCode == 74){disabledEvent(e);}
-        if(e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {disabledEvent(e);}
-        if(e.ctrlKey && e.keyCode == 85) {disabledEvent(e);}
-        if(event.keyCode == 123) {disabledEvent(e);}
-      }, false);function disabledEvent(e){if(e.stopPropagation){e.stopPropagation();} else if(window.event){window.event.cancelBubble = true;}e.preventDefault();return false;}};
-  </script>
-  <script language="JavaScript" type="text/javascript" CHARSET="UTF-8" src="https://streamsb.net/js/jquery.cookie.js"></script>
-  <script>
-  $.cookie('file_id', '21441654', { expires: 10 });
-  $.cookie('aff', '2297', { expires: 10 });
-  
-  </script>
-
-          <center><script async="async" type="application/javascript" src="https://a.realsrv.com/ad-provider.js"></script>
-          <ins class="adsbyexoclick" data-zoneid="4980746"></ins>
-          <script>(AdProvider = window.AdProvider || []).push({"serve": {}});</script></center>
+//change below target URL to your own
+var targetURL="IMAGETWIST_LINK"
+//change the second to start counting down from
+var countdownfrom=7
 
 
+var currentsecond=document.redirect.redirect2.value=countdownfrom+1
+function countredirect(){
+if (currentsecond!=1){
+currentsecond-=1
+document.redirect.redirect2.value=currentsecond
+}
+else{
+window.location=targetURL
+return
+}
+setTimeout("countredirect()",1300)
+}
 
+countredirect()
+//-->
+</script>
 
+<center><iframe src="//a.realsrv.com/iframe.php?idzone=4998898&size=900x250" width="900" height="250" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe></center>
 
-
-
-
-
-	  
-	  
-  <div class="container">
-    <div class="videoplayer mb-4 mb-lg-5 pb-1">
-      
-      <div class="videoplayer-embed mb-4">
-        <IFRAME SRC="https://streamsb.net/e/8cmv6h6egydm" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH="100%" HEIGHT="100%" allowfullscreen></IFRAME>
-      </div>
-      <div class="row align-items-center flex-lg-nowrap mb-4">
-        <div class="col-auto flex-grow-1 flex-shrink-1 mw-0 mb-3 mb-lg-0">
-          <h1 class="h4">
-            
-              
-          </h1>
-          <div class="xsmall text-muted">
-            <span>Uploaded by:</span>
-            j91.asia  
-          </div>
-        </div>
-        <div class="col-auto ms-auto">
-          <button type="button" class="btn videoplayer-btn" data-bs-toggle="modal" data-bs-target="#modal-share">
-            <i class="icon icon-share me-2 icon-size-20"></i>Share </button>
-          <button type="button" class="btn videoplayer-btn" data-bs-toggle="modal" data-bs-target="#modal-flag">
-            <i class="icon icon-flag me-2 icon-size-20"></i>
-            Flag
-          </button>
-        </div>
-      </div>
-      <div class="text-center mb-4">
+<center>
+<script async="async" data-cfasync="false" src="//pl19566679.highrevenuegate.com/70820f765d6333cb5a6013ed9d4f23a2/invoke.js"></script>
+<div id="container-70820f765d6333cb5a6013ed9d4f23a2"></div>
+</center>
 	
-          <!-- Video FULL ADS code start here -->
-              
-              	<!--ADULT-->
-	      
+</head>
+  
+<body>
+<hr>
+<center>
+	
+<script type="application/javascript">
+    var ad_idzone = "4972060",
+    ad_width = "300",
+    ad_height = "250",
+    v_pos = "bottom",
+    h_pos = "left";
+</script>
+	
+<script type="application/javascript" src="https://a.realsrv.com/js.php?t=17&idzone=4972060"></script>
+	
+	
 <script async type="application/javascript" src="https://a.realsrv.com/ad-provider.js"></script> 
- <ins class="adsbyexoclick" data-zoneid="4987778"></ins> 
+ <ins class="adsbyexoclick" data-zoneid="4972068"></ins> 
  <script>(AdProvider = window.AdProvider || []).push({"serve": {}});</script>
-
+	
+<script async type="application/javascript" src="https://a.realsrv.com/ad-provider.js"></script> 
+ <ins class="adsbyexoclick" data-zoneid="4972072"></ins> 
+ <script>(AdProvider = window.AdProvider || []).push({"serve": {}});</script>
+	
 <script type="application/javascript" 
-data-idzone="4987782" src="https://a.realsrv.com/nativeads-v2.js" 
+data-idzone="4972070" src="https://a.realsrv.com/nativeads-v2.js" 
 ></script>
-
+	
+	</center>
 <script type="application/javascript">
 (function() {
 
@@ -130,13 +120,13 @@ data-idzone="4987782" src="https://a.realsrv.com/nativeads-v2.js"
     var adConfig = {
     "ads_host": "a.realsrv.com",
     "syndication_host": "syndication.realsrv.com",
-    "idzone": 4987788,
+    "idzone": 4972058,
     "popup_fallback": true,
     "popup_force": false,
     "chrome_enabled": true,
     "new_tab": true,
-    "frequency_period": 6,
-    "frequency_count": 3,
+    "frequency_period": 5,
+    "frequency_count": 1,
     "trigger_method": 3,
     "trigger_class": "",
     "only_inline": false,
@@ -148,267 +138,6 @@ window.document.querySelectorAll||(document.querySelectorAll=document.body.query
 
 
 </script>
+
 	
-<script type="application/javascript" 
-data-idzone="4987794"  data-ad_frequency_count="1"  data-ad_frequency_period="8"  data-type="desktop" 
-data-browser_settings="1" 
-data-ad_trigger_method="3" 
-
-src="https://a.realsrv.com/fp-interstitial.js"></script>
-	
-<script type="application/javascript" 
-data-idzone="4987798"  data-ad_frequency_count="1"  data-ad_frequency_period="8"  data-type="mobile" 
-data-browser_settings="1" 
-data-ad_trigger_method="3" 
-
-src="https://a.realsrv.com/fp-interstitial.js"></script>
-	
-<script async type="application/javascript" src="https://a.realsrv.com/ad-provider.js"></script> 
- <ins class="adsbyexoclick" data-zoneid="4987806"></ins> 
- <script>(AdProvider = window.AdProvider || []).push({"serve": {}});</script>
-
-<script type="application/javascript">
-    var ad_idzone = "4987792",
-    ad_width = "300",
-    ad_height = "250",
-    v_pos = "bottom",
-    h_pos = "left"; 
-</script>
-<script type="application/javascript" src="https://a.realsrv.com/js.php?t=17&idzone=4987792"></script>
-
-<script async type="application/javascript" src="https://a.realsrv.com/ad-provider.js"></script> 
- <ins class="adsbyexoclick" data-zoneid="4987804"></ins> 
- <script>(AdProvider = window.AdProvider || []).push({"serve": {}});</script>
-		
-<script type="application/javascript" 
-data-idzone="4987802" src="https://a.realsrv.com/nativeads-v2.js" 
-></script>
-
-<script type='text/javascript' src='//pl19568160.highrevenuegate.com/cf/98/be/cf98befa9f56d237042b530662239049.js'></script>
-              
-          <!-- Video ADs code end here -->
-      
-      
-      </div>
-
-
-
-
-
-
-
-
-	    
-      
-        <div class="text-center mb-3">
-          <a href="https://streamsb.net/d/8cmv6h6egydm"><button class="btn btn-primary submit-btn">
-            <i class="icon icon-download icon-size-20 me-2"></i>Download</button>
-        </div>
-      
-    </div>
-  </div>
-  <div class="modal fade" id="modal-flag" tabindex="-1">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header pb-0">
-          <h5 class="modal-title">
-            Flag
-          </h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <form method="POST" action="/" onsubmit="$.post('/',$(this).serialize(),function(code){ eval(code); } );return false;">
-            <input type="hidden" name="op" value="report_file">
-            <input type="hidden" name="file_code" value="sfwq65nxw2o1">
-            <div class="form-group mb-3">
-              <label class="form-label">
-                Reason
-              </label>
-              <select name="report_type" class="form-select">
-                <option>
-                  Broken video
-                </option>
-                <option>
-                  Wrong title/description
-                </option>
-                <option>
-                  Copyright restriction
-                </option>
-                <option>
-                  Other
-                </option>
-              </select>
-            </div>
-            <div class="form-group mb-3">
-              <textarea name="report_info" class="form-control" rows="2" placeholder="Details"></textarea>
-            </div>
-            <input type="submit" name="add" value="Send Report" class="btn btn-primary submit-btn w-100">
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="modal fade" id="modal-share" tabindex="-1">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header pb-0">
-          <h5 class="modal-title">
-            Flag
-          </h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <div class="nav tabs mb-3" role="tablist">
-            <a href="#tab-download-link" data-bs-toggle="tab" class="nav-link active" aria-selected="true" role="tab">
-              Download Link
-            </a>
-            <a href="#tab-forum-code" data-bs-toggle="tab" class="nav-link" aria-selected="true" role="tab">
-              Forum Code
-            </a>
-            <a href="#tab-html-code" data-bs-toggle="tab" class="nav-link" aria-selected="false" tabindex="-1" role="tab">
-              HTML Code
-            </a>
-            
-              <a href="#tab-embed-code" data-bs-toggle="tab" class="nav-link" aria-selected="false" tabindex="-1" role="tab">
-                Embed Code
-              </a>
-            
-            
-          </div>
-          <div class="tab-content">
-            <div class="tab-pane fade show active" id="tab-download-link">
-              <textarea onfocus="this.select()" class="form-control" rows="3">https://streamsb.net</textarea>
-            </div>
-            <div class="tab-pane fade" id="tab-forum-code">
-              <textarea onfocus="this.select()" class="form-control" rows="3">[URL=https://streamsb.net][IMG]https://cloudfront-cdn-images.com/[/IMG]
-00822[/URL]
-[1280x720, 00:00:000]</textarea>
-            </div>
-            <div class="tab-pane fade" id="tab-html-code">
-              <textarea onfocus="this.select()" class="form-control"
-                rows="3"><a href="https://streamsb.net/"><img src="https://cloudfront-cdn-images.com/" border=0><br>00822</a><br>[1280x720, 00:00:000]</textarea>
-            </div>
-            
-              <div class="tab-pane fade" id="tab-embed-code">
-                <div class="row align-items-center g-1 mb-2">
-                  <div class="col-auto small">Embed size:</div>
-                  <div class="col-auto"><input type="text" id="iew" value="640" size="3" class="form-control form-control-sm" style="padding: 0.25rem 0.5rem !important"></div>
-                  <div class="col-auto">x</div>
-                  <div class="col-auto"><input type="text" id="ieh" value="360" size="3" class="form-control form-control-sm" style="padding: 0.25rem 0.5rem !important"></div>
-                </div>
-                <textarea onfocus="this.select()" id="iet" class="form-control" rows="3"><IFRAME SRC="https://streamsb.net/" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=640 HEIGHT=360 allowfullscreen></IFRAME></textarea>
-              </div>
-            
-            
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <style>
-    .tabs a {
-      color: #90a3b0;
-      border-radius: 5px;
-      margin-right: .25rem;
-      padding: .5rem 1.25rem;
-      white-space: nowrap;
-    }
-
-    .tabs a:hover,
-    .tabs a:focus {
-      color: #fff;
-    }
-
-    .tabs a.active {
-      background-color: #2d3b4d;
-      color: #fff;
-    }
-  </style>
-
-
-  <Script type="text/javascript" language="JavaScript">
-  $("#embed_div textarea").focus(function (){ $(this).select(); })
-  document.write('<style type="text/css">.tabber{display:none;}<\/style>');
-  var tab_cookie='tab_down';
-
-  $('ul.tabs').on('click', 'li:not(.current)', function() {
-      $(this).addClass('current').siblings().removeClass('current')
-          .parents('div.section').find('div.box').eq($(this).index()).fadeIn(150).siblings('div.box').hide();
-  });
-
-  $("#iew,#ieh").change(function (){
-      var ww = $("#iew").val();
-      var hh = $("#ieh").val();
-      ww = ww.replace(/\D/g,'');
-      hh = hh.replace(/\D/g,'');
-      if(!ww)ww=640;
-      if(!hh)hh=360;
-      tt = $("#iet").val();
-      tt = tt.replace(/ WIDTH=\d+ HEIGHT=\d+ /,' WIDTH='+ww+' HEIGHT='+hh+' ');
-      $("#iet").val(tt);
-  });
-
-  
-  </Script>
-  <script language="JavaScript" type="text/javascript" src="https://streamsb.net/js/tabber.js"></script>
-
-  
-  
-
-
-  </main>
-<footer class="footer">
-  <div class="container">
-    <div class="row text-center text-lg-start">
-      <div class="col">
-        <div class="mb-3">
-			
-                <a href="#">
-                  <img src="https://streamsb.net/d5/images/logo.svg" alt="logo">
-                </a>
-			
-        </div>
-        <div class="text-muted mb-3">© 2023 StreamSB. Designed and developed by Webmasters.</div>
-      </div>
-      <div class="col d-none d-lg-block">
-        <div class="fw-bold mb-2 text-uppercase ltr-1">Information</div>
-
-      </div>
-      <div class="col d-none d-lg-block">
-        <div class="fw-bold mb-2 text-uppercase ltr-1">Services</div>
-
-      </div>
-      <div class="col">
-        <div class="fw-bold mb-2 text-uppercase ltr-1">Payments</div>
-        <div class="footer-pays">
-          <div class="row justify-content-center justify-content-lg-start g-2">
-            <div class="col-auto">
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
-                <path fill="none"
-                  d="M16 32C7.163 32 0 24.837 0 16S7.163 0 16 0c8.836 0 16 7.163 16 16s-7.164 16-16 16Zm7.042-17.253c-.755-.95-2.53-1.073-2.53-1.073s1.13-1.16 1.048-2.227c-.083-1.068-.838-2.468-1.975-2.887-.949-.349-2.485-.214-3.281-.085l-.699-2.914-1.775.425.694 2.897-1.403.336-.694-2.898-1.775.426.694 2.897-3.457.828.447 1.869s.978-.358 1.286-.407c.309-.049 1.018.127 1.18.804l1.769 7.383c.079.327.066.997-.524 1.113-.59.117-1.237.198-1.237.198l.141 2.239 3.56-.812.685 2.858 1.776-.425-.68-2.838 1.405-.321.677 2.824 1.776-.425-.673-2.804s3.452-1.009 4.035-2.547c.262-.692 1.065-2.503-.47-4.434Zm-4.031 4.622c-.791.511-3.225.971-3.225.971l-.919-3.832a18.014 18.014 0 0 1 2.337-.559c.981-.136 2.448-.192 2.975.868.526 1.06-.377 2.042-1.168 2.552Zm-1.996-5.45c-.945.597-2.479.791-2.479.791l-.851-3.551a9.085 9.085 0 0 1 2.452-.488c.962-.036 1.937.45 2.085 1.279.14.78-.262 1.372-1.207 1.969Z" />
-              </svg>
-            </div>
-            <div class="col-auto">
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
-                <path fill="none"
-                  d="M16 0C7.163 0 0 7.163 0 16c0 8.836 7.163 16 16 16 8.836 0 16-7.164 16-16 0-8.837-7.164-16-16-16Zm.5 4 6.875 11.125-6.875-3.25-7.125 3.25L16.5 4Zm.125 24.25L9.375 18l7.125 4.25L23.75 18l-7.125 10.25Zm-.125-7.5-7.375-4.125 7.375-3.25 7.25 3.25-7.25 4.125Z" />
-              </svg>
-            </div>
-            <div class="col-auto">
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
-                <path fill="none"
-                  d="M16 0C7.163 0 0 7.163 0 16s7.163 16 16 16 16-7.163 16-16S24.837 0 16 0Zm6.75 23H9.5l1.357-5.07-1.875.676.642-2.165 1.812-.674 2.314-8.642h5.125l-1.744 6.525 2.198-.818-.562 2.245-2.233.806L15.5 19.75h8.125L22.75 23Z" />
-              </svg>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-        <center><script async="async" type="application/javascript" src="https://a.realsrv.com/ad-provider.js"></script>
-        <ins class="adsbyexoclick" data-zoneid="4998898"></ins>
-        <script>(AdProvider = window.AdProvider || []).push({"serve": {}});</script></center>
-</footer>
-</body>
-
-</html>
+</body></html>
