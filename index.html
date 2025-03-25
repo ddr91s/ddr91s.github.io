@@ -4,11 +4,42 @@
 <head>
     <title>ImageTwist</title>
     <meta charset="UTF-8">
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        #iframe-container {
+            width: 100%;
+            height: 100%;
+            display: none; /* Sembunyikan iframe saat halaman dimuat */
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
 </head>
 
 <body>
+
     <h1>JavSubs91 Galeri </h1>
-    <iframe src="https://imagetwist.com/p/javsubs9111/683403/ALL" width="100%" height="800px" frameborder="0" allowfullscreen></iframe>
+    <button onclick="showIframe()">Lihat Galeri</button>
+
+    <div id="iframe-container">
+        <iframe id="galleryFrame" src="https://imagetwist.com/p/javsubs9111/683403/ALL" allowfullscreen></iframe>
+    </div>
+
+    <script>
+        function showIframe() {
+            document.getElementById('iframe-container').style.display = 'block';
+        }
+    </script>
+
 </body>
 
 </html>
