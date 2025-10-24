@@ -1,10 +1,158 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="icon" href="https://raw.githubusercontent.com/javsubs91/javsubs91/main/favicon.ico">
-	<title>TENN-010_s.jpg - ImageTwist</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Live Users Monitor</title>
+<style>
+  body {
+    background: #121212;
+    font-family: "Segoe UI", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    color: #eee;
+  }
+
+  #online-box {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: rgba(20,20,20,0.85);
+    padding: 14px 22px;
+    border-radius: 30px;
+    font-size: 22px;
+    font-weight: 600;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    margin-bottom: 20px;
+  }
+
+  .live-dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #ff3b3b;
+    box-shadow: 0 0 12px #ff3b3b;
+    animation: blink 1s infinite;
+  }
+
+  @keyframes blink {
+    50% { opacity: 0.3; }
+  }
+
+  #country-stats {
+    background: rgba(25,25,25,0.85);
+    padding: 18px 22px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    max-width: 450px;
+    width: 100%;
+    color: #eee;
+  }
+
+  #country-stats h3 {
+    margin-top: 0;
+    text-align: center;
+    color: #00ffff;
+    text-shadow: 0 0 6px #00ffff;
+  }
+
+  #country-stats ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-height: 400px;
+    overflow-y: auto;
+  }
+
+  #country-stats li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    position: relative;
+  }
+
+  .bar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, #00ffff, #00ff88);
+    opacity: 0.3;
+    z-index: -1;
+    border-radius: 8px;
+  }
+
+  li span {
+    z-index: 1;
+    position: relative;
+  }
+
+  li:hover .bar {
+    opacity: 0.6;
+  }
+</style>
 </head>
 <body>
-  <center><embed src="https://imagetwist.com/zabgf5qaiyts" style="width:720px; height: 1270px;"></center>
+
+<div id="online-box">
+  <div class="live-dot"></div>
+  <span id="online-count">0</span>
+  <span>Live Users 🔴</span>
+</div>
+
+<div id="country-stats">
+  <h3>Users by Country</h3>
+  <ul id="country-list"></ul>
+</div>
+
+<script>
+async function fetchOnline() {
+  try {
+    const res = await fetch("online.php");
+    const data = await res.json();
+
+    // Update total online dengan animasi halus
+    const onlineEl = document.getElementById("online-count");
+    const prev = parseInt(onlineEl.textContent);
+    const next = data.online;
+    const steps = 10;
+    let i = 0;
+    const diff = (next - prev)/steps;
+    const interval = setInterval(()=>{
+      i++;
+      onlineEl.textContent = Math.round(prev + diff*i);
+      if(i>=steps) clearInterval(interval);
+    },50);
+
+    // Update country list realtime
+    const ul = document.getElementById("country-list");
+    ul.innerHTML = "";
+    const countries = data.countries;
+    const sorted = Object.entries(countries).sort((a,b)=>b[1]-a[1]);
+    const maxCount = sorted[0] ? sorted[0][1] : 1;
+
+    for(const [country,count] of sorted){
+      const li = document.createElement("li");
+      const barWidth = (count/maxCount)*100;
+      li.innerHTML = `<span>${country}</span><span>${count}</span><div class="bar" style="width:${barWidth}%"></div>`;
+      ul.appendChild(li);
+    }
+
+  } catch(e) {
+    console.error("Error fetching online data:", e);
+  }
+}
+
+fetchOnline();
+setInterval(fetchOnline,5000);
+</script>
+
 </body>
 </html>
