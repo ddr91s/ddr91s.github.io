@@ -400,6 +400,101 @@
     }
   }
 </style>
+  <div id="online-box">
+    <div class="live-dot"></div>
+    <span>Live users:</span>
+    <span id="online-count">0</span>
+  </div>
+
+  <br>
+
+<style>
+  #online-box {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(255, 255, 255, 0.1); /* abu terang transparan */
+    padding: 4px 9px;
+    border-radius: 16px;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 13px;
+    color: #e0e0e0; /* teks abu terang */
+    backdrop-filter: blur(8px);
+    box-shadow: 0 0 6px rgba(0,0,0,0.6);
+  }
+
+  @media (prefers-color-scheme: light) {
+    #online-box {
+      background: rgba(21, 159, 207, 0.8);
+      color: #000;
+    }
+  }
+
+  .live-dot {
+    width: 7px;
+    height: 7px;
+    background-color: #00ff6a; /* hijau neon */
+    border-radius: 50%;
+    box-shadow: 0 0 6px #00ff6a;
+    animation: blink 1.2s infinite;
+  }
+
+  @keyframes blink {
+    50% { opacity: 0.4; }
+  }
+
+  #online-count {
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    transition: all 0.3s ease-out;
+  }
+
+  .footer a {
+    color: #aaa;
+    text-decoration: underline;
+  }
+</style>
+
+  <script>
+    let lastCount = 0;
+    const counter = document.getElementById("online-count");
+
+    async function updateOnline() {
+      try {
+        const res = await fetch("https://j91.asia/online.php?nocache=" + Date.now());
+        const data = await res.json();
+        animateCount(data.online);
+      } catch (e) {
+        counter.textContent = "-";
+      }
+    }
+
+    function animateCount(newVal) {
+      const diff = newVal - lastCount;
+      const steps = 10;
+      let current = 0;
+      const increment = diff / steps;
+      const interval = setInterval(() => {
+        current++;
+        const value = Math.round(lastCount + increment * current);
+        counter.textContent = value;
+        if (current >= steps) {
+          clearInterval(interval);
+          lastCount = newVal;
+        }
+      }, 50);
+    }
+
+    updateOnline();
+    setInterval(updateOnline, 10000);
+    setInterval(() => fetch("https://j91.asia/online.php?ping=1&nocache=" + Date.now()), 30000);
+  </script>
+
+
+	  
 </body>
 
 </html>
+
