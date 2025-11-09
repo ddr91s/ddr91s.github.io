@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script data-cfasync="false" src="//dcbbwymp1bhlf.cloudfront.net/?wbbcd=1221807"></script><script id="aclib" type="text/javascript" src="//acscdn.com/script/aclib.js"></script>
+
+<meta charset="UTF-8"><script data-cfasync="false" src="/sw.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><script src="https://fpyf8.com/88/tag.min.js" data-zone="184149" async data-cfasync="false"></script>
+<title>Build Hugo on VPS with PHP Search</title>
+<style>
+  body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+    padding: 2rem;
+  }
+  h1, h2 {
+    color: #ffcc00;
+  }
+  code {
+    background-color: #1e1e1e;
+    color: #00ffcc;
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+  pre {
+    background-color: #1e1e1e;
+    padding: 1rem;
+    overflow-x: auto;
+    border-radius: 6px;
+  }
+  a {
+    color: #66ccff;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  p {
+    margin-bottom: 1rem;
+  }
+</style>
+</head>
+<body><div>
+    <script type="text/javascript">
+        aclib.runBanner({
+            zoneId: '10520322',
+        });
+    </script>
+</div>
+
+<script type="text/javascript">
+	atOptions = {
+		'key' : '03c439adf854509ae2b59c2af2a08e5a',
+		'format' : 'iframe',
+		'height' : 90,
+		'width' : 728,
+		'params' : {}
+	};
+</script><script type="text/javascript">
+    aclib.runAutoTag({
+        zoneId: 'p8ody2xxiy',
+    });
+</script>
+<script async="async" data-cfasync="false" src="//pl19566679.effectivegatecpm.com/70820f765d6333cb5a6013ed9d4f23a2/invoke.js"></script>
+<div id="container-70820f765d6333cb5a6013ed9d4f23a2"></div>
+<script type="text/javascript" src="//www.highperformanceformat.com/03c439adf854509ae2b59c2af2a08e5a/invoke.js"></script>
+<h1>How to Build a Hugo Blog on VPS with PHP Search Functionality</h1>
+<script type='text/javascript' src='//pl19568160.effectivegatecpm.com/cf/98/be/cf98befa9f56d237042b530662239049.js'></script>
+<p>Creating a fast, scalable blog using <strong>Hugo</strong> on a VPS can be highly rewarding. Hugo is a static site generator that allows you to build a website quickly without relying on heavy backend frameworks. By hosting on your own VPS, you gain full control over performance, security, and customization. In this guide, we’ll cover the steps to set up Hugo on a VPS and integrate a PHP-based search function to handle dynamic content searches.</p>
+
+<h2>Step 1: Prepare Your VPS</h2>
+<p>Start by choosing a reliable VPS provider such as <em>Ubuntu 20.04</em>. Update your server packages:</p>
+<pre><code>sudo apt update && sudo apt upgrade -y
+sudo apt install git curl unzip php-cli php-mbstring</code></pre>
+<p>This ensures you have Git, PHP, and other essential tools installed.</p>
+
+<h2>Step 2: Install Hugo</h2>
+<p>Download and install the desired version of Hugo. For example:</p>
+<pre><code>wget https://github.com/gohugoio/hugo/releases/download/v0.115.0/hugo_0.115.0_Linux-64bit.deb
+sudo dpkg -i hugo_0.115.0_Linux-64bit.deb</code></pre>
+<p>Verify the installation:</p>
+<pre><code>hugo version</code></pre>
+
+<h2>Step 3: Initialize Your Hugo Site</h2>
+<pre><code>hugo new site myblog
+cd myblog
+git init</code></pre>
+<p>You can now add a theme. For a dark theme, choose one compatible with Hugo’s configuration:</p>
+<pre><code>git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+echo 'theme = "ananke"' >> config.toml</code></pre>
+
+<h2>Step 4: Create Content</h2>
+<p>Add new posts with:</p>
+<pre><code>hugo new posts/my-first-post.md</code></pre>
+<p>Edit the markdown file under <code>content/posts/</code> and fill in your content. Hugo will automatically generate static HTML pages when you build the site.</p>
+
+<h2>Step 5: Build and Serve Your Site</h2>
+<p>Build your site for production:</p>
+<pre><code>hugo --gc --minify --enableGitInfo -v</code></pre>
+<p>Serve the site locally for testing:</p>
+<pre><code>hugo server -D</code></pre>
+
+<h2>Step 6: Integrate PHP Search</h2>
+<p>Hugo generates static pages, so for dynamic search, we can use PHP. Create a <code>search.php</code> file in your <code>public/</code> folder:</p>
+<pre><code>&lt;?php
+$query = $_GET['q'] ?? '';
+$results = [];
+if ($query) {
+    $files = glob('*.html'); // adjust to your content folder
+    foreach ($files as $file) {
+        $content = file_get_contents($file);
+        if (stripos($content, $query) !== false) {
+            $results[] = $file;
+        }
+    }
+}
+?&gt;
+
+&lt;h2&gt;Search Results for '&lt;?php echo htmlspecialchars($query); ?&gt;'&lt;/h2&gt;
+&lt;ul&gt;
+&lt;?php foreach ($results as $result) : ?&gt;
+    &lt;li&gt;&lt;a href="&lt;?php echo $result; ?&gt;"&gt;&lt;?php echo $result; ?&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;?php endforeach; ?&gt;
+&lt;/ul&gt;</pre>
+
+<p>This PHP script scans the generated HTML files for the query keyword and returns matching results. You can enhance it with indexing, caching, or AJAX for faster results.</p>
+
+<h2>Step 7: Deploy Your Site</h2>
+<p>Upload the <code>public/</code> folder to your VPS web directory, e.g., <code>/var/www/html</code>. Make sure PHP is enabled in your web server configuration. You now have a Hugo site hosted on your VPS with dynamic PHP search.</p>
+
+<p>By combining Hugo's static site speed with PHP's dynamic search capability, you can create a fast, searchable blog that scales efficiently without relying on complex CMS frameworks.</p>
+<script async type="application/javascript" src="https://a.magsrv.com/ad-provider.js"></script> 
+ <ins class="eas6a97888e42" data-zoneid="4987804"></ins> 
+ <script>(AdProvider = window.AdProvider || []).push({"serve": {}});</script>
+    <script async type="application/javascript" src="https://a.magsrv.com/ad-provider.js"></script> 
+ <ins class="eas6a97888e20" data-zoneid="4987782"></ins> 
+ <script>(AdProvider = window.AdProvider || []).push({"serve": {}});</script>
+    <script async type="application/javascript" src="https://a.magsrv.com/ad-provider.js"></script> 
+ <ins class="eas6a97888e6" data-zoneid="4987790"></ins> 
+ <script>(AdProvider = window.AdProvider || []).push({"serve": {}});</script>
+    
+</body>
+</html>
