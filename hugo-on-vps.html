@@ -69,7 +69,7 @@
   box-shadow: 0 2px 6px rgba(0,0,0,0.3);
   overflow: hidden;
   width: 100%;
-  aspect-ratio: 16 / 9; /* default ukuran landscape */
+  aspect-ratio: 16 / 9; /* default ukuran */
   max-width: 320px;
 }
 
@@ -81,10 +81,10 @@
 
 <div class="dark-ad-box">
   <div class="lazy-uapp-ad"
-       data-src="https://imagetwist.com/rx3yo8xqp1q2/FC2PPV_4793619_s.jpg"
+       data-src="https://imagetwist.com/rx3yo8xqp1q2/FC2PPV_4793619_s.jpg.html"
        data-width="640"
        data-height="360">
-    <span>Loading image...</span>
+    <span>Loading content...</span>
   </div>
 </div>
 
@@ -113,16 +113,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         el.replaceChildren(iframe);
 
-        const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
-        iframeDoc.open();
-        iframeDoc.write(`
-          <!DOCTYPE html>
-          <html><head><base target="_parent"></head>
-          <body style="margin:0;padding:0;overflow:hidden;background:#000;display:flex;justify-content:center;align-items:center;">
-            <img src="${src}" alt="Embedded Image" style="width:100%;height:100%;object-fit:contain;border-radius:10px;">
-          </body></html>
-        `);
-        iframeDoc.close();
+        iframe.src = src; // langsung load halaman HTML
 
         observer.unobserve(el);
       }
@@ -132,6 +123,7 @@ document.addEventListener("DOMContentLoaded", function() {
   ads.forEach(ad => observer.observe(ad));
 });
 </script>
+
 	
 	
 	
