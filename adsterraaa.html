@@ -1,88 +1,105 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chat GPT Pinter - Video Embed</title>
 <style>
-h1 {
-  font-size: 85px;
+body {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background: #111;
+    font-family: Arial, sans-serif;
+    color: #fff;
 }
-h2 {
-  font-size: 25px;
+.container {
+    width: 100%;
+    max-width: 900px; /* maksimal 720p relatif */
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    height: 520px; /* tetap 720p */
+    background: #000;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.video-wrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    display: block;
+}
+.play-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color: #ff0000;
+    background: rgba(0,0,0,0.3);
+    padding: 0.5rem 0.7rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.play-overlay:hover {
+    background: rgba(0,0,0,0.5);
+}
+.video-wrapper iframe {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    border:0;
 }
 </style>
-<head>
-    <link rel="icon" href="https://raw.githubusercontent.com/hd-720p/test-blog/gh-pages/favicon.ico">
-<p align="center"><iframe src="//a.magsrv.com/iframe.php?idzone=4972046&size=300x500" width="300" height="500" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe></p>
-    <title>Redirecting...</title>
-	<hr>
-<form name="redirect">
-    <h1 style="text-align:center;color:green;">
-    Please Wait  </h1>
-<center>
-<form>
-    <h2 style="text-align:center;">
-        You'll be redirected to ImageTwist 
-        , in
-<input type="button" size="500" name="redirect2">
-</form>
-<p>or <a href="#">Click Here</a></p>
-</center>
-<script>
-<!--
-/*
-Count down then redirect script
-*/
-
-//change below target URL to your own
-var targetURL="#"
-//change the second to start counting down from
-var countdownfrom=1000
-
-
-var currentsecond=document.redirect.redirect2.value=countdownfrom+1
-function countredirect(){
-if (currentsecond!=1){
-currentsecond-=1
-document.redirect.redirect2.value=currentsecond
-}
-else{
-window.location=targetURL
-return
-}
-setTimeout("countredirect()",1000)
-}
-
-countredirect()
-//-->
-</script>
-
 </head>
-  
 <body>
-<hr>
-<center>
 
-<script async type="application/javascript" src="https://a.magsrv.com/ad-provider.js"></script> 
- <ins class="eas6a97888e17" data-zoneid="4972060"></ins> 
- <script>(AdProvider = window.AdProvider || []).push({"serve": {}});</script>
-		
-<script async type="application/javascript" src="https://a.magsrv.com/ad-provider.js"></script> 
- <ins class="eas6a97888e42" data-zoneid="4972068"></ins> 
- <script>(AdProvider = window.AdProvider || []).push({"serve": {}});</script>
-	
-<script async type="application/javascript" src="https://a.magsrv.com/ad-provider.js"></script> 
- <ins class="eas6a97888e20" data-zoneid="4972070"></ins> 
- <script>(AdProvider = window.AdProvider || []).push({"serve": {}});</script>
-	
-<script async type="application/javascript" src="https://a.magsrv.com/ad-provider.js"></script> 
- <ins class="eas6a97888e38" data-zoneid="4972072"></ins> 
- <script>(AdProvider = window.AdProvider || []).push({"serve": {}});</script>
-	
-	</center>
+<div class="container">
+    <h1>Chat GPT Pinter</h1>
+    <div class="video-wrapper">
+        <!-- Poster -->
+        <img id="videoPoster" src="https://images.prismic.io/ebayevo/ZwjFc4F3NbkBXO4Y_video-player_I1410-4911-4786-15677.png" alt="Video Poster">
+        <!-- Play Button -->
+        <div class="play-overlay" id="playBtn">&#9658;</div>
+    </div>
+</div>
 
-<script type="text/javascript" data-cfasync="false">
-/*<![CDATA[/* */
-(function(){var o=window,u="bb3d48cb734f5fa50850ab4348f4de4f",a=[["siteId",774-281*274-679-142+5263180],["minBid",0],["popundersPerIP","0"],["delayBetween",0],["default",false],["defaultPerDay",0],["topmostLayer","auto"]],h=["d3d3LnhhZHNtYXJ0LmNvbS9tZDNwbHVzLm1pbi5jc3M=","ZDExZW5xMnJ5bXkweWwuY2xvdWRmcm9udC5uZXQvYVAvanBsb3R0YWJsZS5taW4uanM="],r=-1,b,j,e=function(){clearTimeout(j);r++;if(h[r]&&!(1768847302000<(new Date).getTime()&&1<r)){b=o.document.createElement("script");b.type="text/javascript";b.async=!0;var w=o.document.getElementsByTagName("script")[0];b.src="https://"+atob(h[r]);b.crossOrigin="anonymous";b.onerror=e;b.onload=function(){clearTimeout(j);o[u.slice(0,16)+u.slice(0,16)]||e()};j=setTimeout(e,5E3);w.parentNode.insertBefore(b,w)}};if(!o[u]){try{Object.freeze(o[u]=a)}catch(e){}e()}})();
-/*]]>/* */
+<script>
+const playBtn = document.getElementById('playBtn');
+const poster = document.getElementById('videoPoster');
+const wrapper = document.querySelector('.video-wrapper');
+
+playBtn.addEventListener('click', () => {
+    // Hapus poster & tombol play
+    poster.style.display = 'none';
+    playBtn.style.display = 'none';
+
+    // Buat iframe baru
+    const iframe = document.createElement('iframe');
+    iframe.src = "https://turbovidhls.com/t/69125fc3eb53c";
+    iframe.allowFullscreen = true;
+    iframe.frameBorder = 0;
+
+    wrapper.appendChild(iframe);
+});
+poster.addEventListener('click', () => playBtn.click());
 </script>
-	
+
 </body>
 </html>
